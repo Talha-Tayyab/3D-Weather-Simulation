@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+}
+
+#controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+label, h3, button {
+    display: block;
+    margin: 5px 0;
+}
+
+input[type="range"], select, button {
+    width: 120px;
+}
+
+span {
+    margin-left: 5px;
+}
